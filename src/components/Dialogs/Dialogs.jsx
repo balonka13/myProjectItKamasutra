@@ -16,12 +16,6 @@ const Dialogs = (props) => {
         props.sendMessage();
     }
 
-    let onNewMessageChange = (e) => {
-        let body = e.target.value;
-        props.updateNewMessageBody(body);
-    }
-
-
     return (
             <div className={s.dialogs}>
                 <div>
