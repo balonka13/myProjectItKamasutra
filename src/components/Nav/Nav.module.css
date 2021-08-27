@@ -1,0 +1,52 @@
+.nav {
+    grid-area: n;
+    background-color: mediumseagreen;
+    padding: 20px;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+.item a.activeLink {
+    color: gold;
+}
+
+.itemSettings {
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.itemSettings a {
+    color: white;
+    text-decoration: none;
+}
+
+.itemSettings a.activeLink {
+    color: gold;
+}
+
+.friends {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.friendsItem {
+    display: inline-block;
+    font-size: small;
+    padding: 10px;
+    text-decoration: none;
+
+
+}
+
+.avatar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
